@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="top-text-wrapper">
+            <h1 class="first-line">Generate a</h1>
+            <h1 class="second-line">random password</h1>
+        </div>
+
+        <h4 class="sub-text">Never use an insecure password again!</h4>
+
+        <div class="count-wrapper">
+            <label id="count-label" for="character-count"># of Characters</label>
+            <input id="number-count" type="text" name="character-count" min="0">
+        </div>
+
+        <button type="submit" id="generate-btn">Generate passwords</button>
+
+        
+
+        <hr>
+
+        <div class="input-wrapper">
+            <div id="password-one" class="passwords"></div>
+            <div id="password-two" class="passwords"></div>
+        </div>
+
+    </div>
+    
+
+    <script src="/index.js"></script>
+</body>
+</html>
